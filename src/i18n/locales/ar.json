@@ -1,0 +1,372 @@
+{
+  "app": {
+    "name": "زِدْني",
+    "title": "زِدْني - مساعد الذكاء الاصطناعي",
+    "tagline": "مساعد الذكاء الاصطناعي العربي المتقدم"
+  },
+  "language": {
+    "ar": "العربية",
+    "en": "English",
+    "switchTo": "Switch to English",
+    "direction": "rtl"
+  },
+  "sidebar": {
+    "newChat": "محادثة جديدة",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "last7Days": "آخر 7 أيام",
+    "last30Days": "آخر 30 يوماً",
+    "features": "الميزات",
+    "websites": "مواقع",
+    "documents": "مستندات",
+    "presentations": "عروض تقديمية",
+    "spreadsheets": "جداول",
+    "deepResearch": "بحث عميق",
+    "codePlayground": "كود زِدْني",
+    "channels": "القنوات",
+    "agents": "الوكلاء (25)",
+    "mobileApp": "تطبيق الهاتف",
+    "about": "من نحن",
+    "settings": "الإعدادات"
+  },
+  "chat": {
+    "placeholder": "اكتب رسالتك هنا...",
+    "send": "إرسال",
+    "thinking": "جاري التفكير...",
+    "demoMode": "وضع العرض",
+    "demoMessage": "أضف مفتاح API للحصول على ردود ذكية",
+    "welcome": "مرحباً! أنا زِدْني، مساعدك الذكي. كيف يمكنني مساعدتك اليوم؟",
+    "tools": {
+      "enabled": "الأدوات مفعلة",
+      "disabled": "الأدوات معطلة",
+      "using": "يستخدم الأدوات"
+    },
+    "agents": {
+      "general": "زِدْني العام",
+      "code": "مبرمج الكود",
+      "researcher": "الباحث",
+      "writer": "الكاتب"
+    }
+  },
+  "agents": {
+    "title": "نظام الوكلاء المتعددين",
+    "subtitle": "إدارة 25 وكيل ذكاء اصطناعي يعملون بشكل متوازي",
+    "stats": {
+      "total": "الوكلاء",
+      "active": "نشط",
+      "idle": "خامل",
+      "tasks": "المهام",
+      "completed": "مكتمل",
+      "failed": "فاشل",
+      "queued": "في الانتظار"
+    },
+    "tabs": {
+      "agents": "الوكلاء",
+      "tasks": "المهام",
+      "discussion": "نقاش جماعي"
+    },
+    "actions": {
+      "selectAll": "تحديد الكل",
+      "deselectAll": "إلغاء التحديد",
+      "newAgent": "وكيل جديد",
+      "sendTask": "إرسال مهمة",
+      "startDiscussion": "بدء النقاش",
+      "clearCompleted": "مسح المكتملة"
+    },
+    "form": {
+      "taskPlaceholder": "أدخل مهمة للوكلاء...",
+      "topicPlaceholder": "موضوع النقاش...",
+      "rounds": "عدد الجولات"
+    },
+    "status": {
+      "idle": "خامل",
+      "busy": "مشغول",
+      "running": "قيد التنفيذ",
+      "completed": "مكتمل",
+      "failed": "فاشل",
+      "queued": "في الانتظار",
+      "cancelled": "ملغي"
+    },
+    "priority": {
+      "high": "عالي",
+      "normal": "عادي",
+      "low": "منخفض"
+    },
+    "templates": {
+      "general": "زِدْني العام",
+      "code": "مبرمج الكود",
+      "researcher": "الباحث",
+      "writer": "الكاتب",
+      "translator": "المترجم",
+      "teacher": "المعلم",
+      "lawyer": "المستشار القانوني",
+      "doctor": "الطبيب",
+      "designer": "المصمم",
+      "marketer": "المسوّق",
+      "dataAnalyst": "محلل البيانات",
+      "seoExpert": "خبير SEO",
+      "socialMedia": "مدير سوشيال",
+      "copywriter": "كتابة إعلانية",
+      "projectManager": "مدير المشاريع",
+      "accountant": "المحاسب",
+      "chef": "الطاهي",
+      "fitnessCoach": "مدرب اللياقة",
+      "therapist": "المستشار",
+      "travelAgent": "وكيل سفر",
+      "historian": "المؤرخ",
+      "philosopher": "الفيلسوف",
+      "poet": "الشاعر",
+      "comedian": "المضحك",
+      "detective": "المحقق"
+    },
+    "create": {
+      "title": "إنشاء وكيل جديد",
+      "name": "الاسم",
+      "description": "الوصف",
+      "systemPrompt": "تعليمات النظام",
+      "cancel": "إلغاء",
+      "create": "إنشاء"
+    }
+  },
+  "channels": {
+    "title": "إدارة القنوات",
+    "subtitle": "ربط وإدارة قنوات التواصل",
+    "whatsapp": "واتساب",
+    "telegram": "تلغرام",
+    "discord": "ديسكورد",
+    "status": {
+      "connected": "متصل",
+      "disconnected": "غير متصل",
+      "awaitingQR": "في انتظار QR",
+      "running": "يعمل"
+    },
+    "actions": {
+      "connect": "بدء الاتصال",
+      "reconnect": "إعادة الاتصال",
+      "startBot": "تشغيل البوت",
+      "send": "إرسال",
+      "stopAll": "إيقاف جميع القنوات"
+    },
+    "form": {
+      "telegramToken": "توكن تلغرام",
+      "discordToken": "توكن ديسكورد",
+      "recipient": "المستلم",
+      "message": "الرسالة"
+    },
+    "qr": {
+      "ready": "رمز QR جاهز للمسح",
+      "instruction": "افتح واتساب على هاتفك وامسح رمز QR للاتصال"
+    },
+    "messages": {
+      "title": "آخر الرسائل المستلمة",
+      "empty": "لا توجد رسائل بعد"
+    }
+  },
+  "tools": {
+    "title": "الأدوات",
+    "shell": "سطر الأوامر",
+    "browser": "المتصفح",
+    "filesystem": "نظام الملفات",
+    "memory": "الذاكرة",
+    "search": "البحث",
+    "code": "تنفيذ الكود",
+    "execute": "تنفيذ",
+    "result": "النتيجة",
+    "error": "خطأ",
+    "loading": "جاري التنفيذ..."
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "search": "بحث",
+    "filter": "تصفية",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "paste": "لصق",
+    "download": "تحميل",
+    "upload": "رفع",
+    "preview": "معاينة",
+    "deploy": "نشر",
+    "settings": "إعدادات",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "forgotPassword": "نسيت كلمة المرور",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "name": "الاسم",
+    "description": "الوصف",
+    "success": "نجاح",
+    "error": "خطأ",
+    "warning": "تحذير",
+    "info": "معلومات"
+  },
+  "websiteGenerator": {
+    "title": "مولد المواقع",
+    "subtitle": "أنشئ وانشر مواقع ويب كاملة",
+    "placeholder": "صف الموقع الذي تريد إنشاءه... (مثال: موقع شخصي بسيط مع صورة ونبذة عني)",
+    "clear": "مسح",
+    "generate": "إنشاء الموقع",
+    "generating": "جاري الإنشاء...",
+    "mySites": "مواقعي المنشورة",
+    "publishedSites": "المواقع المنشورة",
+    "noSites": "لا توجد مواقع منشورة",
+    "views": "مشاهدة",
+    "deleteConfirm": "هل أنت متأكد من حذف هذا الموقع؟",
+    "deploySuccess": "تم نشر الموقع بنجاح!",
+    "open": "فتح",
+    "preview": "معاينة",
+    "code": "الكود",
+    "deploy": "نشر",
+    "deploying": "جاري النشر...",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "download": "تحميل",
+    "tips": {
+      "professional": "تصميم احترافي",
+      "professionalDesc": "مواقع جميلة وسريعة",
+      "responsive": "متجاوب",
+      "responsiveDesc": "يعمل على جميع الأجهزة",
+      "instant": "نشر فوري",
+      "instantDesc": "احصل على رابط مباشر"
+    }
+  },
+  "documentManager": {
+    "title": "المستندات",
+    "subtitle": "ارفع وإدارة مستنداتك",
+    "upload": "رفع الملفات",
+    "dragDrop": "اسحب الملفات هنا أو انقر للتصفح",
+    "supportedFormats": "الصيغ المدعومة: PDF، DOC، TXT، صور",
+    "myDocuments": "مستنداتي",
+    "noDocuments": "لا توجد مستندات بعد",
+    "view": "عرض",
+    "delete": "حذف",
+    "deleteConfirm": "هل أنت متأكد من حذف هذا المستند؟",
+    "uploadSuccess": "تم رفع الملف بنجاح!",
+    "uploadError": "فشل رفع الملف"
+  },
+  "pptGenerator": {
+    "title": "العروض التقديمية",
+    "subtitle": "أنشئ عروض احترافية بالذكاء الاصطناعي",
+    "placeholder": "صف العرض التقديمي الذي تريد إنشاءه...",
+    "topic": "الموضوع",
+    "slides": "عدد الشرائح",
+    "generate": "إنشاء العرض",
+    "generating": "جاري الإنشاء...",
+    "exportPPTX": "تصدير PPTX",
+    "slide": "شريحة",
+    "of": "من",
+    "tips": {
+      "ai": "مدعوم بالذكاء الاصطناعي",
+      "aiDesc": "توليد محتوى ذكي",
+      "templates": "قوالب جميلة",
+      "templatesDesc": "تصاميم احترافية",
+      "export": "تصدير سهل",
+      "exportDesc": "تحميل كـ PPTX"
+    }
+  },
+  "spreadsheetEditor": {
+    "title": "الجداول",
+    "subtitle": "محرر جداول على غرار Excel",
+    "newSheet": "جدول جديد",
+    "import": "استيراد",
+    "export": "تصدير",
+    "exportCSV": "تصدير CSV",
+    "exportXLSX": "تصدير XLSX",
+    "importCSV": "استيراد CSV",
+    "importXLSX": "استيراد XLSX",
+    "cell": "خلية",
+    "formula": "صيغة",
+    "value": "قيمة",
+    "tips": {
+      "excel": "متوافق مع Excel",
+      "excelDesc": "استيراد وتصدير ملفات XLSX",
+      "formulas": "صيغ",
+      "formulasDesc": "دعم الحسابات الأساسية",
+      "free": "مجاني",
+      "freeDesc": "لا يتطلب تسجيل"
+    }
+  },
+  "deepResearch": {
+    "title": "بحث عميق",
+    "subtitle": "بحث شامل مع تحليل ذكي",
+    "placeholder": "أدخل موضوع البحث...",
+    "quickSearch": "بحث سريع",
+    "deepSearch": "بحث عميق",
+    "webSearch": "بحث في الويب",
+    "smartAnalysis": "تحليل ذكي",
+    "search": "بحث",
+    "searching": "جاري البحث...",
+    "results": "نتائج البحث",
+    "noResults": "لم يتم العثور على نتائج",
+    "analyze": "تحليل بالذكاء الاصطناعي",
+    "analyzing": "جاري التحليل...",
+    "copy": "نسخ",
+    "copied": "تم النسخ",
+    "downloadReport": "تحميل التقرير",
+    "sources": "مصدر",
+    "researchSummary": "ملخص البحث",
+    "webResults": "نتائج الويب",
+    "sourcesList": "قائمة المصادر",
+    "startResearch": "ابدأ البحث عن أي موضوع",
+    "researchDescription": "سنبحث في الويب ونقدم لك تحليلاً شاملاً",
+    "saveToMemory": "حفظ في الذاكرة",
+    "saved": "تم الحفظ في الذاكرة",
+    "tips": {
+      "web": "بحث في الويب",
+      "webDesc": "ابحث عبر الإنترنت",
+      "ai": "تحليل ذكي",
+      "aiDesc": "تلخيص ذكي للنتائج",
+      "sources": "مصادر موثوقة",
+      "sourcesDesc": "معلومات مُتحقق منها"
+    }
+  },
+  "codePlayground": {
+    "title": "كود زِدْني",
+    "subtitle": "بيئة تطوير JavaScript تفاعلية",
+    "placeholder": "// اكتب كود JavaScript هنا...",
+    "run": "تشغيل",
+    "running": "جاري...",
+    "console": "النتيجة",
+    "clear": "مسح الكونسول",
+    "save": "حفظ المقتطف",
+    "load": "تحميل المقتطف",
+    "snippets": "المحفوظات",
+    "tips": {
+      "instant": "تنفيذ فوري",
+      "instantDesc": "شغل الكود فوراً",
+      "safe": "بيئة آمنة",
+      "safeDesc": "تنفيذ معزول",
+      "learn": "تعلم وتدرب",
+      "learnDesc": "مثالي لتعلم JS"
+    }
+  },
+  "about": {
+    "title": "عن زِدْني",
+    "subtitle": "مساعد الذكاء الاصطناعي العربي",
+    "description": "زِدْني هو مساعد ذكاء اصطناعي عربي متكامل، مصمم لمساعدة المستخدمين في مختلف المهام من المحادثة الذكية إلى إنشاء المواقع والمستندات والعروض التقديمية. يتميز زِدْني بنظام أدوات متقدم مستوحى من Moltbot، مما يتيح له تنفيذ أوامر shell، وتصفح الويب، وإدارة الملفات، والمزيد - كل ذلك باللغة العربية.",
+    "features": "المميزات",
+    "techStack": "التقنيات المستخدمة",
+    "version": "الإصدار",
+    "madeWith": "صُنع بحب للعالم العربي"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما",
+    "network": "خطأ في الاتصال بالشبكة",
+    "notFound": "الصفحة غير موجودة",
+    "unauthorized": "غير مصرح",
+    "forbidden": "غير مسموح",
+    "validation": "خطأ في التحقق من البيانات",
+    "server": "خطأ في الخادم"
+  }
+}

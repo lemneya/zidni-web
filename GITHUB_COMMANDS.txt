@@ -1,0 +1,75 @@
+╔══════════════════════════════════════════════════════════════════╗
+║           ZIDNI - PUSH TO GITHUB COMMANDS                        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📦 STEP 1: Navigate to project
+cd /path/to/zidni
+
+📦 STEP 2: Initialize git
+git init
+git branch -m main
+
+📦 STEP 3: Configure git (replace with your info)
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+
+📦 STEP 4: Add all files
+git add .
+
+📦 STEP 5: Commit
+git commit -m "Initial commit: Zidni - Arabic AI Assistant with 25 Agents
+
+Features:
+- 25 AI agents working simultaneously  
+- Multi-provider AI (KIMI, OpenAI, Gemini)
+- Clawdbot/Moltbot integration
+- Website generator with deployment
+- Spreadsheet editor (Excel-style)
+- Presentation generator (PPTX)
+- Deep research with web search
+- Code playground (JavaScript)
+- Channel manager (WhatsApp, Telegram, Discord)
+- File upload and document management
+- Tool system (shell, browser, filesystem, memory, search, code)
+- Full Arabic RTL interface
+- Docker support for easy deployment"
+
+📦 STEP 6: Create GitHub repo at https://github.com/new
+   - Name: zidni
+   - Choose Public or Private
+   - Click "Create repository"
+
+📦 STEP 7: Add remote and push
+git remote add origin https://github.com/YOUR_USERNAME/zidni.git
+git push -u origin main
+
+╔══════════════════════════════════════════════════════════════════╗
+║                    ✅ DONE!                                      ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Your repository will be at:
+https://github.com/YOUR_USERNAME/zidni
+
+╔══════════════════════════════════════════════════════════════════╗
+║              🐳 DEPLOY FROM GITHUB                               ║
+╚══════════════════════════════════════════════════════════════════╝
+
+On your Azure VPS:
+
+git clone https://github.com/YOUR_USERNAME/zidni.git
+cd zidni
+npm install
+
+# Create .env file
+nano .env
+# Add:
+# AI_PROVIDER=kimi
+# KIMI_API_KEY=sk-your-key
+# PORT=3001
+
+# Start with PM2
+npm install -g pm2
+pm2 start server.cjs --name "zidni-backend"
+pm2 save
+pm2 startup
+
